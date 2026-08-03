@@ -1,0 +1,10 @@
++ basic type have
+    - string
+    - number
+    - boolean
+    - null
+    - undefined
+    - any
+    - unknown
+    - never
+    - void
