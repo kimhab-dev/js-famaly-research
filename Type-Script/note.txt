@@ -1,3 +1,6 @@
++ run
+    - tsc --watch: for auto run tsc
+    - nodemon app: for auto run js
 + basic type have
     - string
     - number
