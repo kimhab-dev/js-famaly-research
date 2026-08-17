@@ -79,16 +79,104 @@
 // console.log(student);
 
 // -> array object
-const students: {
-    id: number;
-    name: string;
+// const students: {
+//     id: number;
+//     name: string;
+// }[] = [
+//     {
+//         id: 1,
+//         name: "Kimhab"
+//     }
+// ];
+// console.log(students[0].id);
+
+// -> exercise 
+// let technologies: string[] = ["Java script", "type script", "Vue.js", "Node.js", "Express.js"];
+// console.log(technologies.length);
+
+// for (const t in technologies){
+//     if(t == '0'){        
+//         console.log(technologies[t]);
+//     }
+//     if(Number(t) == technologies.length - 1){        
+//         console.log(technologies[Number(technologies.length - 1)]);
+//     }
+// }
+
+// exercise 5
+// let scores: number[] = [90, 85, 100, 70, 95, 82, 52];
+// for (const t in scores){
+//     if(t == '0'){        
+//         console.log("Fisrt in dex of array : ", scores[t]);
+//     }
+//     if(Number(t) == scores.length - 1){        
+//         console.log("Last in dex of array : ", scores[Number(scores.length - 1)]);
+//     }
+// }
+// console.log("Total legnth of array : ", scores.length);
+
+// exercise object normal object
+// let user: {
+//     id: number;
+//     username: string;
+//     email: string;
+//     isActive: boolean
+// } = {
+//     id: 1,
+//     username: "kimhab",
+//     email: "kimhabsok@gmail.com",
+//     isActive: true
+// }
+
+// exercise object optional property
+// let project: {
+//     readonly id: number;
+//     title: string;
+//     description?: string;
+//     status: true
+// } = {
+//     id: 1,
+//     title: "E-Submit",
+//     status: true
+// }
+// console.log(project);
+
+// array object
+let Student: {
+    readonly id: number,
+    name: string,
+    age: number
 }[] = [
     {
         id: 1,
-        name: "Kimhab"
+        name: "kimhab",
+        age: 22
+    },
+    {
+        id: 2,
+        name: "Ly hour",
+        age: 17
+    },
+    {
+        id: 3,
+        name: "chan both",
+        age: 11
     }
-];
-console.log(students[0].id);
+]
+
+for (const stu in Student){
+    if (stu == '0') {
+        console.log(Student[stu]);
+    }
+    if (stu == '2') {
+        console.log(Student[stu]);
+    }
+    
+}
+
+
+
+
 
 
 

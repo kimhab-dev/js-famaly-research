@@ -11,3 +11,11 @@
     - unknown
     - never
     - void
++ Interface គឺជាកិច្ចសន្យា (Contract) ដែលប្រាប់ថា Data របស់យើងត្រូវមានរូបរាងយ៉ាងដូចម្តេច។
+    - interface វាព្រាបដូចជាពុំមួយ អញ្ចឹងសម្រាប់ទុក ចម្លង Object ក្រោយៗ។ វា reus and easy to scalable ជាង  Array object (inline)
++ Type Alias & Advanced Types
+    - type គឺជាវិធីមួយទៀតសម្រាប់បង្កើត Type ថ្មី។
++ -----> lesson 6 (function in type script)
+
++ task 
+    - resarch nest.js 
